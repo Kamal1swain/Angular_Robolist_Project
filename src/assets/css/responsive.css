@@ -1,0 +1,302 @@
+@media only screen and (max-width: 575px) {
+    .top_details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top_bar_main .info {
+        margin: 5px 0;
+        text-align: center;
+    }
+    .services_inner img {
+        height: 170px !important;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 767px) {
+    .services_inner img {
+        height: 200px !important;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 440px) {
+    ul.top-contact li small {
+        margin-right: 0px !important;
+    }
+    ul.top-contact li {
+        margin-left: 0;
+        margin-right: 3px;
+    }
+    a.navbar-brand {
+        width: 230px;
+    }
+    a.navbar-brand img {
+        width: 100%;
+    }
+    .navbar-toggler {
+        padding: 0 5px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+    }
+    .owl-item {
+        height: 200px;
+    }
+    .header-carousel .owl-carousel-item img {
+        height: 200px;
+    }
+    .header-carousel .owl-carousel-item {
+        min-height: 200px;
+    }
+    .section-title h1 {
+        font-size: 20px;
+    }
+    .portfolio-img {
+        height: auto;
+    }
+    .portfolio-item h5 {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 441px) and (max-width: 550px) {
+    ul.top-contact li small {
+        margin-right: 0px !important;
+    }
+    ul.top-contact li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    a.navbar-brand {
+        width: 230px;
+    }
+    a.navbar-brand img {
+        width: 100%;
+    }
+    .navbar-toggler {
+        padding: 0 5px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+    }
+    .owl-item {
+        height: 200px;
+    }
+    .header-carousel .owl-carousel-item img {
+        height: 200px;
+    }
+    .header-carousel .owl-carousel-item {
+        min-height: 200px;
+    }
+    .section-title h1 {
+        font-size: 20px;
+    }
+    .portfolio-img {
+        height: auto;
+    }
+    .portfolio-item h5 {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 551px) and (max-width:767px) {
+    ul.top-contact li small {
+        margin-right: 0px !important;
+    }
+    ul.top-contact li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    a.navbar-brand {
+        width: 230px;
+    }
+    a.navbar-brand img {
+        width: 100%;
+    }
+    .navbar-toggler {
+        padding: 0 5px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+    }
+    .owl-item {
+        height: 200px;
+    }
+    .header-carousel .owl-carousel-item img {
+        height: 200px;
+    }
+    .header-carousel .owl-carousel-item {
+        min-height: 200px;
+    }
+    .section-title h1 {
+        font-size: 20px;
+    }
+    .portfolio-img {
+        height: auto;
+    }
+    .portfolio-item h5 {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 320px) and (max-width:767px) {
+    .dropdown-menu {
+        border: none;
+    }
+    .navbar-light a.btn {
+        margin-bottom: 30px;
+    }
+    .about img {
+        height: auto !important;
+    }
+    .services_main {
+        display: block;
+    }
+    .services_inner {
+        margin-bottom: 15px;
+    }
+    .mobile_map {
+        min-height: 200px !important;
+        margin-top: 20px;
+    }
+    .cntct_details {
+        padding-top: 20px !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width:890px) {
+    ul.top-contact li small {
+        margin-right: 0px !important;
+    }
+    ul.top-contact li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    a.navbar-brand {
+        width: 190px;
+    }
+    a.navbar-brand img {
+        width: 100%;
+    }
+    .navbar-toggler {
+        padding: 0 5px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+    }
+    .owl-item {
+        height: 300px;
+    }
+    .header-carousel .owl-carousel-item img {
+        height: 300px;
+    }
+    .header-carousel .owl-carousel-item {
+        min-height: 300px;
+    }
+    .section-title h1 {
+        font-size: 20px;
+    }
+    .portfolio-img {
+        height: auto;
+    }
+    .portfolio-item h5 {
+        font-size: 16px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 12px;
+        font-size: 12px;
+    }
+    .services_inner img {
+        height: 180px;
+    }
+    .mobile_map {
+        min-height: 200px !important;
+        margin-top: 20px;
+    }
+    .cntct_details {
+        padding-top: 20px !important;
+    }
+}
+
+@media(min-width: 891px) and (max-width:1024px) {
+    .about-text {
+        padding: 0px !important;
+    }
+    .services p {
+        font-size: 13px;
+    }
+    ul.top-contact li small {
+        margin-right: 0px !important;
+    }
+    ul.top-contact li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    a.navbar-brand {
+        width: 190px;
+    }
+    a.navbar-brand img {
+        width: 100%;
+    }
+    .navbar-toggler {
+        padding: 0 5px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+    }
+    .owl-item {
+        height: 300px;
+    }
+    .header-carousel .owl-carousel-item img {
+        height: 300px;
+    }
+    .header-carousel .owl-carousel-item {
+        min-height: 300px;
+    }
+    .section-title h1 {
+        font-size: 20px;
+    }
+    .portfolio-img {
+        height: auto;
+    }
+    .portfolio-item h5 {
+        font-size: 16px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 12px;
+        font-size: 12px;
+    }
+    .services_inner img {
+        height: 125px;
+    }
+    .mobile_map {
+        min-height: 200px !important;
+        margin-top: 20px;
+    }
+    .cntct_details {
+        padding-top: 20px !important;
+    }
+}
+
+@media(min-width: 1025px) and (max-width:1365px) {
+    .about-text {
+        padding: 0px !important;
+    }
+    .services_rooms .about-text {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    .services p {
+        font-size: 13px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 12px;
+        font-size: 12px;
+    }
+    a.navbar-brand {
+        width: 200px;
+    }
+    a.navbar-brand img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+<div class="outlet" style="background-image:linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)),url(https://demo.codethemes.co/robolist-lite/wp-content/uploads/2018/03/spa-2.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3" style="margin-bottom: 35px;margin-top: 25px;">
+        <div class="panel border bg-white">
+          <div class="panel-heading">
+            <h3 class="pt-3 font-weight-bold">
+              Sign up
+            </h3>
+          </div>
+          <div class="panel-body p-3">
+            <form [formGroup]="signup">
+              <div class="form-group pt-3">
+                <div class="input-field"
+                  [class.error]="signup.controls['FirstName'].dirty && signup.hasError('required','FirstName')">
+                  <span class="fa fa-user p-2"></span>
+                  <input formControlName="FirstName" type="text" placeholder="FirstName">
+                </div>
+              </div>
+              <small *ngIf="signup.controls['FirstName'].dirty && signup.hasError('required','FirstName')"
+                class="text-danger">*FirstName is required</small>
+              <div class="form-group pt-3">
+                <div class="input-field"
+                  [class.error]="signup.controls['LastName'].dirty && signup.hasError('required','LastName')">
+                  <span class="fa fa-user p-2"></span>
+                  <input formControlName="LastName" type="text" placeholder="LastName">
+                </div>
+              </div>
+              <small *ngIf="signup.controls['LastName'].dirty && signup.hasError('required','LastName')"
+                class="text-danger">*LastName is required</small>
+              <div class="form-group pt-3">
+                <div class="input-field"
+                  [class.error]="signup.controls['Email'].dirty && signup.hasError('required','Email')">
+                  <span class="fa fa-user p-2"></span>
+                  <input formControlName="Email" type="text" placeholder="Email">
+                </div>
+              </div>
+              <small *ngIf="signup.controls['Email'].dirty && signup.hasError('required','Email')"
+                class="text-danger">*email is required</small>
+              <div class="form-group pt-3">
+                <div class="input-field"
+                  [class.error]="signup.controls['password'].dirty && signup.hasError('required','password')">
+                  <span class="fa fa-lock p-2"></span>
+                  <input formControlName="password" [type]="type" placeholder="password">
+                  <span (click)="hideShowPass()" class=" fa {{eyeIcon}} "></span>
+                </div>
+              </div>
+              <small *ngIf="signup.controls['password'].dirty && signup.hasError('required','password')"
+                class="text-danger">*password is required</small>
+              <button (click)="onSignup()" type="submit" class="btn btn-primary btn-block mt-4 w-100">Sign up</button>
+              <div class="text-center pt-4 text-muted">Already have account? <a id="forget"
+                  routerLink="/sign-in">Login</a></div>
+            </form>
+          </div>
+          <!-- <div class="mx-3 my-2 py-2 bordert">
+                      <div class="text-center py-3">
+                          <a href="https://www.facebook.com" target="_blank" class="px-2"> <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt=""></a>
+                           <a href="https://www.google.com" target="_blank" class="px-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPKnoXAxCF9LTstp6E68T_9ucQuRMACaXZCIcelrudqq2kp1BIXnp8c0Oujh_JwLnHtI&usqp=CAU" alt=""></a>
+                           <a href="https://www.github.com" target="_blank" class="px-2"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt=""></a>
+                      </div>
+                  </div> -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

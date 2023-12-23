@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/ngx-toastr/toastr.css';
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import url('assets/css/style.css');
+@import url('assets/css/responsive.css');
+/* @import url('assets/Common/css/responsive.css'); */
+/* @import url('assets/Common/css/style.css'); */
+@import '../node_modules/font-awesome/css/font-awesome.css';
+
+span.mandatory {
+    color: red;
+}
+
+span.mandatory-span {
+    color: #ff0000
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.ngx-pagination .current {
+    padding: 0.1875rem 0.625rem;
+    background: red !important;
+    color: #fefefe;
+    cursor: default;
+  }
+  /* .ngx-pagination {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    left: 293px;
+    position: absolute;
+} */
+.form-check-input:checked {
+    background-color: red;
+    border-color: #ae9251;
+}

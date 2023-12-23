@@ -1,0 +1,48 @@
+<!-- Header Start -->
+<header class="bg-white navbar-light sticky-top">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="site">
+        <a routerLink="" routerLinkActive="router-link-active"  class="navbar-brand d-flex align-items-center " style="font-size: x-large; font-weight: 400; margin-top: 23px;">
+          Robolist Lite
+        </a>
+        <p class="site-description">Job Listing Theme</p>
+      </div>
+      <button type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a routerLink="/dashboard" routerLinkActive="active" class="nav-item nav-link" style="position: relative; right: 286px; font-size: larger;font-weight: 400;top: -5px;">Home</a>
+          <div class="nav-item dropdown" style="position: relative;right: 332px;">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="position: relative;right: -65px;font-size: larger;font-weight: 400; top: -5px;">Listing</a>
+            <div class="dropdown-menu fade-up m-0">
+              <a routerLink="/listing archieve" routerLinkActive="active" class="dropdown-item">Listing Archieve</a>
+              <a routerLink="/listing singal" routerLinkActive="active" class="dropdown-item">Listing Single</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown" style="position: relative;right: 288px;font-size: large;">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="position: relative;right: -44px;font-size: large;font-weight: 400; top:-5px">Page Template</a>
+            <div class="dropdown-menu fade-up m-0">
+              <a routerLink="/page" routerLinkActive="active" class="dropdown-item">Page with no sidebar</a>
+              <a routerLink="/page-left" routerLinkActive="active" class="dropdown-item">Page with left sidebar</a>
+              <a routerLink="/page-right" routerLinkActive="active" class="dropdown-item">Page with right sidebar</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown" style="position: relative;right: 272px;font-size: large;">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="position: relative;right: -53px;font-size: large;font-weight: 400; top: -5px;">Blog</a>
+            <div class="dropdown-menu fade-up m-0">
+              <a routerLink="/blog archieve" routerLinkActive="active" class="dropdown-item">Blog Archieve</a>
+              <a routerLink="/blog-single" routerLinkActive="active" class="dropdown-item">Blog Single</a>
+            </div>
+          </div>
+          <!-- <a routerLink="/contact us" routerLinkActive="active" class="nav-item nav-link" style="position: relative;right: 307px;font-size: large;font-weight: 400;">Contact Us</a> -->
+         
+          <a [routerLink]="['/authentication/sign-in']" class="nav-item nav-link" style="position: relative;right: 5px;font-size: large;font-weight: 400;padding: 16px;"> <i class="fa fa-user" style="padding-right: 12px;"></i>Sign In</a>
+          <button  type="button" class=" save-button" style="height: 42px;margin-top: 7px;width: 120px;font-size: medium; background-color: #25ca6f; border: 1px; border-radius: 6px;"><a href="https://demo.codethemes.co/robolist-lite/amazing-dining-places-to-visit-in-new-york/" style="color: white;"><i class="fas fa-plus-circle"></i> Add Listing</a> </button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- Header End -->
